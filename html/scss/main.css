@@ -11753,11 +11753,14 @@ h4, .h4,
 
 .title {
   color: #000;
-  font-family: "Satisfy", cursive;
-  font-size: 72px;
+  font-size: 48px;
   font-style: normal;
-  font-weight: 400;
-  line-height: 100%; /* 72px */
+  font-weight: 700;
+  line-height: normal;
+}
+
+.section {
+  padding: 84px 0;
 }
 
 .text-big {
@@ -11815,7 +11818,6 @@ h4, .h4,
 
 .real-infusions-post {
   background: #f5f2e8;
-  padding: 42px 80px;
 }
 
 .saparator-2 {
@@ -11849,7 +11851,7 @@ h4, .h4,
 }
 
 .coard-wrapper {
-  margin: 64px auto 150px;
+  margin: 30px auto 100px;
 }
 
 .approach__content_text {
@@ -11980,5 +11982,15 @@ h4, .h4,
 .footer .bottom-inside-footer {
   margin: 38px 0 0 0;
   padding: 34px 0;
+}
+
+.container-selling-point {
+  max-width: 1222px;
+}
+.container-selling-point .col-md-4 {
+  margin-bottom: calc(var(--bs-gutter-x) * 0.5 * 2);
+}
+.container-selling-point .max-383 {
+  height: 100%;
 }
 /*# sourceMappingURL=main.css.map */
