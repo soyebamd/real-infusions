@@ -11724,9 +11724,14 @@ h3,
   font-size: 24px;
 }
 
-h4, .h4,
-.h5 {
+h4,
+.h4 {
   font-size: 20px;
+}
+
+h5,
+.h5 {
+  font-size: 16px;
 }
 
 .btn {
@@ -11760,7 +11765,7 @@ h4, .h4,
 }
 
 .section {
-  padding: 84px 0;
+  padding: 90px 0;
 }
 
 .text-big {
@@ -11851,15 +11856,17 @@ h4, .h4,
 }
 
 .coard-wrapper {
-  margin: 30px auto 100px;
+  margin: 30px auto 70px;
 }
 
 .approach__content_text {
   display: none;
+  font-size: 18px;
+  font-weight: 400;
 }
 
 .approach {
-  padding: 50px 0 112px 0;
+  padding: 100px 0 112px 0;
 }
 
 .count {
@@ -11891,9 +11898,6 @@ h4, .h4,
 .approch-image-slider {
   max-width: 640px;
   overflow: hidden;
-  background-color: #fff;
-  border: solid 10px;
-  border-radius: 8px;
 }
 .approch-image-slider img {
   border-radius: 8px;
@@ -11973,6 +11977,10 @@ h4, .h4,
   line-height: normal;
 }
 
+.fs-7 {
+  font-size: 14px !important;
+}
+
 .footer .footer-top {
   padding: 77px 0 0 0;
 }
@@ -11980,8 +11988,44 @@ h4, .h4,
   color: #fff;
 }
 .footer .bottom-inside-footer {
-  margin: 38px 0 0 0;
+  margin: 53px 0 0 0;
   padding: 34px 0;
+}
+.footer ul {
+  font-size: 12px;
+}
+.footer ul li {
+  margin: 18px 0;
+}
+.footer p {
+  font-size: 12px;
+  margin: 18px 0;
+}
+.footer .social-icons {
+  font-size: 14px;
+  gap: 22px;
+}
+.footer .social-icons a span {
+  padding-left: 7px;
+}
+.footer .policy-links {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.footer .policy-links li {
+  margin: 0;
+  padding: 0;
+}
+.footer .policy-links li + li::before {
+  content: "|";
+  color: white;
+  padding: 0 10px;
+}
+.footer .policy-links li a {
+  text-decoration: none;
+  color: white;
 }
 
 .container-selling-point {
@@ -11992,5 +12036,44 @@ h4, .h4,
 }
 .container-selling-point .max-383 {
   height: 100%;
+}
+
+#subscribe {
+  margin: 18px 0;
+}
+#subscribe ::-moz-placeholder {
+  opacity: 1;
+  color: #fff;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+}
+#subscribe ::placeholder {
+  opacity: 1;
+  color: #fff;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+}
+#subscribe .form-control {
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  background: #00374b;
+  border-color: #00374b;
+  color: white;
+  border-radius: 0;
+  padding: 16px;
+  max-width: 300px;
+}
+#subscribe .btn {
+  border-radius: 0;
+  padding: 16px 0;
+  min-width: 100px;
+  height: auto;
+}
+
+.our-progress__text {
+  max-width: 520px;
 }
 /*# sourceMappingURL=main.css.map */
