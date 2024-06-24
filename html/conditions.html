@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Welcome to Real Infusions®</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link href="scss/main.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="navbar navbar-expand-lg bg-white">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="images/logo.svg" alt="" class="img-fluid" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Patients</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Providers</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">Treatments</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">Conditions</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">About Us</a>
+              </li>
+            </ul>
+
+            <div class="nav-sidebar d-flex gap-3">
+              <div class="nav-sidebar__block">
+                <a href="tel: (305) 504-6797" class="text-primary d-block pb-2">
+                  <img src="images/icon-phone.svg" /> (305) 504-6797
+                </a>
+                <a class="btn btn-primary" href="#">Submit a Referral</a>
+              </div>
+
+              <div class="nav-sidebar__block">
+                <div class="nav-sidebar__block">
+                  <a href="tel: 305-424-7240" class="d-block text-primary pb-2">
+                    <img src="images/icon-fax.svg" /> Fax - 305-424-7240
+                  </a>
+                  <a class="btn btn-secondary text-white" href="#"
+                    >Request Appointment</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section
+        class="page-slider text-white d-flex align-items-center justify-content-center"
+        data-parallax="scroll"
+        data-image-src="images/conditions-banner.png"
+        data-z-index="-1"
+      >
+        <div class="container text-center">
+          <h1>Conditions</h1>
+
+          <p class="text-big_2">
+            Explore our range of treatments and learn how
+            <br class="d-none d-lg-block" />Real Infusions can help you today.
+          </p>
+        </div>
+      </section>
+      <section class="conditions bg-beige section">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-6 mb-4">
+              <div class="condition-card">
+                <div class="condition-card__text">
+                  <h3 class="text-secondary">Agammaglobulinemia</h3>
+                  <p>
+                    Agammaglobulinemia also known as XLA, is a rare genetic
+                    disorder characterized by the absence or extremely low
+                    levels of immunoglobulins, which are essential antibodies
+                    for fighting infections...
+                  </p>
+                </div>
+                <a href="#" class="btn btn-primary btn-sm">Learn More</a>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-6 mb-4">
+              <div class="condition-card">
+                <div class="condition-card__text">
+                  <h3 class="text-secondary">Asthma</h3>
+                  <p>
+                    Asthma is a complex respiratory condition characterized by
+                    inflammation and narrowing of the airways, leading to
+                    symptoms such as wheezing, shortness of breath, and
+                    coughing...
+                  </p>
+                </div>
+                <a href="#" class="btn btn-primary btn-sm">Learn More</a>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-6 mb-4">
+              <div class="condition-card">
+                <div class="condition-card__text">
+                  <h3 class="text-secondary">Alzheimer's Disease</h3>
+                  <p>
+                    Alzheimer's disease is a progressive neurodegenerative
+                    disorder that affects millions of individuals worldwide. It
+                    not only impacts the person diagnosed but also their fa...
+                  </p>
+                </div>
+                <a href="#" class="btn btn-primary btn-sm">Learn More</a>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-6 mb-4">
+              <div class="condition-card">
+                <div class="condition-card__text">
+                  <h3 class="text-secondary">
+                    Chronic Inflammatory Demyelinating Polyneuropathy
+                  </h3>
+                  <p>
+                    Chronic Inflammatory Demyelinating Polyneuropathy (CIDP) is
+                    a rare autoimmune disorder that affects the peripheral
+                    nerves, causing progressive weakness, numbness, an...
+                  </p>
+                </div>
+                <a href="#" class="btn btn-primary btn-sm">Learn More</a>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-6 mb-4">
+              <div class="condition-card">
+                <div class="condition-card__text">
+                  <h3 class="text-secondary">
+                    Common Variable Immunodeficiency
+                  </h3>
+                  <p>
+                    Common Variable Immunodeficiency (CVID) is a primary immune
+                    deficiency disorder characterized by low levels of
+                    immunoglobulins (antibodies) and an increas...
+                  </p>
+                </div>
+                <a href="#" class="btn btn-primary btn-sm">Learn More</a>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-6 mb-4">
+              <div class="condition-card">
+                <div class="condition-card__text">
+                  <h3 class="text-secondary">Crohn's Disease</h3>
+                  <p>
+                    Crohn's disease is a chronic inflammatory bowel disease
+                    (IBD) characterized by inflammation of the gastrointestinal
+                    tract. It can affect any part of the digestive system, fr...
+                  </p>
+                </div>
+                <a href="#" class="btn btn-primary btn-sm">Learn More</a>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-6 mb-4">
+              <div class="condition-card">
+                <div class="condition-card__text">
+                  <h3 class="text-secondary">Gout</h3>
+                  <p>
+                    Gout is a common form of inflammatory arthritis caused by
+                    the buildup of uric acid crystals in the joints. It
+                    typically affects the big toe, but can also occur in other
+                    joints such as t...
+                  </p>
+                </div>
+                <a href="#" class="btn btn-primary btn-sm">Learn More</a>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-6 mb-4">
+              <div class="condition-card">
+                <div class="condition-card__text">
+                  <h3 class="text-secondary">Hereditary Angioedema</h3>
+                  <p>
+                    Hereditary Angioedema (HAE) is a rare genetic disorder
+                    characterized by recurrent episodes of swelling in various
+                    parts of the body, including the skin, gastrointestinal
+                    tract, and airway. Th...
+                  </p>
+                </div>
+                <a href="#" class="btn btn-primary btn-sm">Learn More</a>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-6 mb-4">
+              <div class="condition-card">
+                <div class="condition-card__text">
+                  <h3 class="text-secondary">Iron-Deficiency Anemia</h3>
+                  <p>
+                    Iron-deficiency anemia is a common type of anemia
+                    characterized by a lack of sufficient iron in the body to
+                    produce an adequate amount of hemoglobin, the protein in red
+                    bloo...
+                  </p>
+                </div>
+                <a href="#" class="btn btn-primary btn-sm">Learn More</a>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-6 mb-4">
+              <div class="condition-card">
+                <div class="condition-card__text">
+                  <h3 class="text-secondary">Lupus</h3>
+                  <p>
+                    Lupus, formally known as systemic lupus erythematosus (SLE),
+                    is a chronic autoimmune disease that can affect various
+                    organs and tissues in the body. It is characterized by
+                    perio...
+                  </p>
+                </div>
+                <a href="#" class="btn btn-primary btn-sm">Learn More</a>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-6 mb-4">
+              <div class="condition-card">
+                <div class="condition-card__text">
+                  <h3 class="text-secondary">Multiple Sclerosis</h3>
+                  <p>
+                    Multiple sclerosis (MS) is a chronic neurological disease
+                    that affects the central nervous system, including the brain
+                    and spinal cord. It is characterized by inflammation, damage
+                    to...
+                  </p>
+                </div>
+                <a href="#" class="btn btn-primary btn-sm">Learn More</a>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-6 mb-4">
+              <div class="condition-card">
+                <div class="condition-card__text">
+                  <h3 class="text-secondary">Osteoporosis</h3>
+                  <p>
+                    Osteoporosis is a common bone disease characterized by a
+                    decrease in bone density and quality, leading to increased
+                    bone fragility and susceptibility to fractures. It often
+                    develo...
+                  </p>
+                </div>
+                <a href="#" class="btn btn-primary btn-sm">Learn More</a>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-6 mb-4">
+              <div class="condition-card">
+                <div class="condition-card__text">
+                  <h3 class="text-secondary">Pemphigus Vulgaris</h3>
+                  <p>
+                    Pemphigus vulgaris is a rare autoimmune disorder
+                    characterised by the development of painful blisters and
+                    erosions on the skin and mucous membranes. It occurs when
+                    the body's...
+                  </p>
+                </div>
+                <a href="#" class="btn btn-primary btn-sm">Learn More</a>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-6 mb-4">
+              <div class="condition-card">
+                <div class="condition-card__text">
+                  <h3 class="text-secondary">Plaque Psoriasis</h3>
+                  <p>
+                    Plaque psoriasis is a chronic autoimmune skin condition
+                    characterized by the rapid overproduction of skin cells,
+                    resulting in the formation of thick, red, scaly patches
+                    known a...
+                  </p>
+                </div>
+                <a href="#" class="btn btn-primary btn-sm">Learn More</a>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-6 mb-4">
+              <div class="condition-card">
+                <div class="condition-card__text">
+                  <h3 class="text-secondary">Polymyositis</h3>
+                  <p>
+                    Polymyositis is a rare autoimmune disease characterized by
+                    inflammation and progressive weakening of the skeletal
+                    muscles. It primarily affects the proximal muscles (thos...
+                  </p>
+                </div>
+                <a href="#" class="btn btn-primary btn-sm">Learn More</a>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-6 mb-4">
+              <div class="condition-card">
+                <div class="condition-card__text">
+                  <h3 class="text-secondary">Psoriatic Arthritis</h3>
+                  <p>
+                    Psoriatic arthritis is a chronic autoimmune disease that
+                    affects joints and skin, often occurring in individuals with
+                    psoriasis, a skin condition characterized by red, scaly
+                    patches th...
+                  </p>
+                </div>
+                <a href="#" class="btn btn-primary btn-sm">Learn More</a>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-6 mb-4">
+              <div class="condition-card">
+                <div class="condition-card__text">
+                  <h3 class="text-secondary">Rheumatoid Arthritis</h3>
+                  <p>
+                    Rheumatoid arthritis (RA) is a chronic autoimmune disease
+                    that primarily affects the joints, causing inflammation,
+                    pain, stiffness, and swelling. It can also affect other
+                    organs a...
+                  </p>
+                </div>
+                <a href="#" class="btn btn-primary btn-sm">Learn More</a>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-6 mb-4">
+              <div class="condition-card">
+                <div class="condition-card__text">
+                  <h3 class="text-secondary">Thyroid Eye Disease</h3>
+                  <p>
+                    Thyroid eye disease (TED), also known as Graves'
+                    ophthalmopathy or thyroid-associated orbitopathy, is an
+                    autoimmune condition that affects the tissues and muscles
+                    around the ey...
+                  </p>
+                </div>
+                <a href="#" class="btn btn-primary btn-sm">Learn More</a>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-6 mb-4">
+              <div class="condition-card">
+                <div class="condition-card__text">
+                  <h3 class="text-secondary">Ulcerative Colitis</h3>
+                  <p>
+                    Ulcerative colitis is a chronic inflammatory bowel disease
+                    (IBD) characterized by inflammation and ulcers in the lining
+                    of the colon and rectum. It is a lifelong condition tha...
+                  </p>
+                </div>
+                <a href="#" class="btn btn-primary btn-sm">Learn More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer bg-dark-v2 text-white">
+      <div class="footer-top p-5">
+        <div class="container-fluid">
+          <div class="row">
+            <!-- First Column: Logo -->
+            <div class="col-md-2">
+              <a href="#">
+                <img src="images/footer-logo.svg" alt="Logo home" />
+              </a>
+            </div>
+
+            <!-- Second Column: Menus -->
+            <div class="col-md-6">
+              <div class="row">
+                <!-- First Menu -->
+                <div class="col-md-3">
+                  <h5>RESOURCES</h5>
+                  <ul class="list-unstyled">
+                    <li><a href="#">Patients</a></li>
+                    <li><a href="#">Physicians</a></li>
+                    <li><a href="#">Payors</a></li>
+                  </ul>
+                </div>
+                <!-- Second Menu -->
+                <div class="col-md-3">
+                  <h5>SERVICES</h5>
+                  <ul class="list-unstyled">
+                    <li><a href="#">Conditions & Treatments</a></li>
+                    <li><a href="#">Personalized Care Plans</a></li>
+                    <li><a href="#">Monitoring and Support</a></li>
+                  </ul>
+                </div>
+                <!-- Third Menu -->
+                <div class="col-md-3">
+                  <h5>ABOUT</h5>
+                  <ul class="list-unstyled">
+                    <li><a href="#">Our Team</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                  </ul>
+                </div>
+
+                <!-- Third Menu -->
+                <div class="col-md-3">
+                  <h5>CONNECT</h5>
+                  <ul class="list-unstyled">
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Contact</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <!-- Third Column: Subscribe and Social Links -->
+            <div class="col-md-4">
+              <h5>Subscribe</h5>
+              <form>
+                <div class="input-group">
+                  <input
+                    type="email"
+                    class="form-control"
+                    placeholder="Your Email"
+                  />
+                  <div class="input-group-append">
+                    <button class="btn btn-primary" type="button">
+                      Subscribe
+                    </button>
+                  </div>
+                </div>
+              </form>
+              <ul class="social-icons list-unstyled d-flex">
+                <li>
+                  <a href="#"><i class="fab fa-instagram"></i> Instagram</a>
+                </li>
+                <li>
+                  <a href="#"><i class="fab fa-facebook"></i> Facebook</a>
+                </li>
+                <li>
+                  <a href="#"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                </li>
+              </ul>
+              <p>
+                P: <a href="tel:+18182332444">(818) 233-2444</a> F:
+                <a href="tel:+18182332445">(818) 233-2445</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Bottom Inside Footer -->
+      <div class="bottom-inside-footer bg-dark-v3 text-white">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <small>© 2024 Real Infusions. All rights reserved.</small>
+            </div>
+            <div class="col">
+              <ul class="policy-links list-inline list-unstyled d-flex">
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms of Use</a></li>
+                <li><a href="#">HIPAA Notice of Privacy Practices</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.js"
+      integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="js/parallax.js"></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+
+    <script>
+      $(document).ready(function () {
+        $(".approach__content")
+          .first()
+          .find(".approach__content_text")
+          .slideDown();
+
+        $(".approach__content_title").click(function () {
+          var $content = $(this).next(".approach__content_text");
+          $(".approach__content_text").not($content).slideUp();
+          $content.slideToggle();
+        });
+      });
+
+      //equal height col
+      var faqTitles = document.querySelectorAll(".faq-card__title");
+
+      faqTitles.forEach(function (title) {
+        title.addEventListener("click", function () {
+          var content = this.nextElementSibling;
+          var isActive = this.classList.contains("active");
+
+          // Close all content
+          faqTitles.forEach(function (title) {
+            title.classList.remove("active");
+          });
+
+          // Slide up all contents
+          var contents = document.querySelectorAll(".faq-card__content");
+          contents.forEach(function (content) {
+            content.style.height = 0;
+          });
+
+          if (!isActive) {
+            this.classList.add("active");
+            content.style.height = content.scrollHeight + "px";
+          }
+        });
+      });
+    </script>
+  </body>
+</html>
