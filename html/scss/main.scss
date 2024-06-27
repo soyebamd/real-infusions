@@ -110,7 +110,9 @@ h5,
   font-weight: 700;
   line-height: normal;
 }
-
+.p-29 {
+  padding: 29px !important;
+}
 .btn-lg {
   font-size: 16px;
   height: 50px;
@@ -504,6 +506,10 @@ h5,
 }
 
 /*mainson-post*/
+
+.list-lower-alpha {
+  list-style: lower-alpha;
+}
 
 .mainson-post {
   max-width: 1200px;
