@@ -11846,12 +11846,17 @@ h5,
 }
 
 .real-infusions-post {
-  background: #f5f2e8;
+  background: #f5f2e8 url(../images/sea.png);
+  background-size: cover;
+}
+.real-infusions-post .wave {
+  position: relative;
+  bottom: -35px;
 }
 
 .saparator-2 {
   height: 167px;
-  background: #f5f2e8 url(../images/bottom-sprite.svg) !important;
+  background: #f5f2e8 url(../images/wave.svg) !important;
 }
 
 .card-icon {
@@ -11879,8 +11884,13 @@ h5,
   max-width: 383px;
 }
 
-.coard-wrapper {
+.card-wrapper {
   margin: 30px auto 70px;
+}
+.card-wrapper .card-text {
+  font-size: 20px;
+  color: #000;
+  font-weight: 500;
 }
 
 .approach__content_text {
@@ -12312,7 +12322,6 @@ textarea.form-control {
 }
 
 .doctor {
-  margin-bottom: 20px;
   margin: 0 auto 20px auto;
 }
 @media (max-width: 990px) {
@@ -12329,5 +12338,15 @@ textarea.form-control {
   margin: 0 0 22px 0;
   font-size: 1.5rem;
   font-weight: bold;
+}
+
+.wave-wrapper {
+  width: 100%;
+  height: 150px;
+  background: url(../images/wave.svg);
+  background-repeat: repeat-x;
+  position: relative;
+  background-position: center top;
+  background-size: cover;
 }
 /*# sourceMappingURL=main.css.map */
