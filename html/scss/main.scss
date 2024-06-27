@@ -682,15 +682,17 @@ textarea.form-control {
 }
 
 .doctor {
-  margin-bottom: 20px;
+  margin: 0 auto 20px auto;
+  @media (max-width: 990px) {
+    max-width: 400px;
+  }
+
   img {
     max-width: 100%;
     height: auto;
     border-radius: 8px;
   }
-  .doctor__details {
-    margin: 0 0 0 22px;
-  }
+
   .doctor__name {
     margin: 0 0 22px 0;
     font-size: 1.5rem;
