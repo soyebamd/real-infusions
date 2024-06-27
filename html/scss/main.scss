@@ -614,3 +614,86 @@ h5,
     height: 15.6rem !important;
   }
 }
+
+.contact {
+  .contact__text {
+    max-width: 370px;
+  }
+  .contact__tag {
+    font-size: 24px;
+
+    font-weight: 700;
+  }
+
+  .contact__text-body {
+    color: $dark-v2;
+    font-size: 20px;
+    p {
+      margin: 30px 0;
+    }
+    a {
+      color: $dark-v2;
+    }
+  }
+  label {
+    color: #000;
+    position: absolute;
+    left: 40px;
+    @media (max-width: 768px) {
+      left: 15px;
+    }
+    top: 27px;
+    transition: all 600ms;
+  }
+  .mb-3 {
+    position: relative;
+  }
+}
+
+.contact__form {
+  max-width: 690px;
+  .btn {
+    height: 42px;
+  }
+}
+
+.form-control {
+  height: 76px;
+  border-radius: 5px;
+  border: 0;
+  padding-left: 40px;
+  @media (max-width: 768px) {
+    padding-left: 15px;
+  }
+  box-shadow: none;
+  &:focus + label,
+  &.input-have-value + label {
+    top: 5px;
+  }
+}
+
+textarea.form-control {
+  min-height: 218px;
+  padding-top: 30px;
+}
+
+.our-team {
+  padding: 91px 0 150px;
+}
+
+.doctor {
+  margin-bottom: 20px;
+  img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  .doctor__details {
+    margin: 0 0 0 22px;
+  }
+  .doctor__name {
+    margin: 0 0 22px 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+}
