@@ -164,8 +164,9 @@
         </div>
       </div>
     </section>
+
     <footer class="footer bg-dark-v2 text-white">
-      <div class="footer-top p-5">
+      <div class="footer-top">
         <div class="container-fluid">
           <div class="row">
             <!-- First Column: Logo -->
@@ -220,8 +221,9 @@
 
             <!-- Third Column: Subscribe and Social Links -->
             <div class="col-md-4">
-              <h5>Subscribe</h5>
-              <form>
+              <h5>STAY UP TO DATE</h5>
+
+              <form id="subscribe">
                 <div class="input-group">
                   <input
                     type="email"
@@ -235,21 +237,26 @@
                   </div>
                 </div>
               </form>
+
               <ul class="social-icons list-unstyled d-flex">
                 <li>
-                  <a href="#"><i class="fab fa-instagram"></i> Instagram</a>
+                  <a href="#">
+                    <img src="./images/insta.svg" /><span> Instagram</span></a
+                  >
                 </li>
                 <li>
-                  <a href="#"><i class="fab fa-facebook"></i> Facebook</a>
+                  <a href="#">
+                    <img src="./images/facebook.svg" /><span>
+                      Facebook
+                    </span></a
+                  >
                 </li>
                 <li>
-                  <a href="#"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                  <a href="#">
+                    <img src="./images/linkedIn.svg" /><span>LinkedIn</span></a
+                  >
                 </li>
               </ul>
-              <p>
-                P: <a href="tel:+18182332444">(818) 233-2444</a> F:
-                <a href="tel:+18182332445">(818) 233-2445</a>
-              </p>
             </div>
           </div>
         </div>
@@ -260,10 +267,20 @@
         <div class="container">
           <div class="row">
             <div class="col">
-              <small>© 2024 Real Infusions. All rights reserved.</small>
+              <p class="m-0">
+                <small>© 2024 Real Infusions. All rights reserved.</small>
+              </p>
             </div>
+
             <div class="col">
-              <ul class="policy-links list-inline list-unstyled d-flex">
+              <p class="m-0 fs-7">
+                <a href="tel:+18182332444" class="me-4">P: (818) 233-2444</a>
+                <a href="tel:+18182332445" class="ms-4">F: (818) 233-2445</a>
+              </p>
+            </div>
+
+            <div class="col">
+              <ul class="policy-links list-inline list-unstyled d-flex m-0">
                 <li><a href="#">Privacy Policy</a></li>
                 <li><a href="#">Terms of Use</a></li>
                 <li><a href="#">HIPAA Notice of Privacy Practices</a></li>
@@ -273,7 +290,6 @@
         </div>
       </div>
     </footer>
-
     <script
       src="https://code.jquery.com/jquery-3.7.1.js"
       integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
