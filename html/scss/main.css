@@ -11696,6 +11696,11 @@ a {
   background-color: #f5f2e8;
 }
 
+.container-small {
+  max-width: 980px;
+}
+
+/*.fs-6 == 16px*/
 h1, .h1,
 h2,
 .h2,
@@ -11732,6 +11737,11 @@ h4,
 h5,
 .h5 {
   font-size: 16px;
+}
+
+.py-75 {
+  padding-top: 4.6rem;
+  padding-bottom: 4.6rem;
 }
 
 .btn {
@@ -12119,5 +12129,53 @@ h5,
 }
 .condition-card h3, .condition-card .h3 {
   margin-bottom: 25px;
+}
+
+/*mainson-post*/
+.mainson-post {
+  max-width: 1200px;
+  padding: 60px;
+  background-color: white;
+  border-radius: 11px;
+  margin: 27px auto;
+}
+@media (max-width: 992px) {
+  .mainson-post {
+    padding: 40px;
+  }
+}
+@media (max-width: 768px) {
+  .mainson-post {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+@media (max-width: 576px) {
+  .mainson-post {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+.mainson-post:first-child {
+  margin-top: 0;
+}
+.mainson-post .maison-post__feature-img {
+  max-width: 475px;
+  width: 100%;
+}
+.mainson-post .maison-post__feature-img img.feature-img {
+  width: 100%;
+}
+@media (max-width: 992px) {
+  .mainson-post .maison-post__feature-img {
+    max-width: 100%;
+  }
+}
+.mainson-post .maison-post__content ul {
+  padding-left: 1rem;
+}
+.mainson-post .maison-post__content.my-4 {
+  margin-top: 2.2rem !important;
+  margin-bottom: 2.2rem !important;
 }
 /*# sourceMappingURL=main.css.map */
